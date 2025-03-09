@@ -30,9 +30,9 @@ Clients can:
 
 # Usage
 After running the THClient file the following commands can be entered:
-1. list <hostname>, to display the list of available seats
-2. book <hostname> <type> <number> <name>, where <type> is for the code of the section, <number> for the amount of seats to book, <name> for the name of the customer
-3. guests <hostname>, to display the list of guests with their reservations
-4. cancel <hostname> <type> <number> <name>, where <type> is for the code of the section, <number> for the amount of seats to cancel, <name> for the name of the customer
-- Type **Yes** when asked to subscribe to the notification list
+1. list `<hostname>`, to display the list of available seats
+2. book `<hostname>` `<type>` `<number>` `<name>`, where `<type>` is for the code of the section, `<number>` for the amount of seats to book, `<name>` for the name of the customer
+3. guests `<hostname>`, to display the list of guests with their reservations
+4. cancel `<hostname>` `<type>` `<number>` `<name>`, where `<type>` is for the code of the section, `<number>` for the amount of seats to cancel, `<name>` for the name of the customer
+- Type **Yes** when asked to subscribe to the notification list  
 **Note**: Replace <hostname> with **localhost**
