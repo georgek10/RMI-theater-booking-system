@@ -9,6 +9,7 @@ Make sure to have JDK 8+ installed. You can run this project through an IDE or t
 - IDE: Run the project with the THServer file set as the main class. Afterwards run the THClient file one or many times in different terminals.
 - Terminals: You need two active terminals. Keep all the source code files in the same path location.
 
+**Steps**
   1. In any terminal compile all files with 'javac *.java'
   2. Compile THImpl.java with 'rmic THImpl' to generate the stub file (might not be needed in newer Java versions)
   3. In the first terminal run THServer with 'java THServer'
