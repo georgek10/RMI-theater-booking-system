@@ -8,10 +8,11 @@ It utilizes Remote Method Invocation (RMI) for communication between clients and
 Make sure to have JDK 8+ installed. You can run this project through an IDE or two separate terminals.
 - IDE: Run the project with the THServer file set as the main class. Afterwards run the THClient file one or many times in different terminals.
 - Terminals: You need two active terminals. Keep all the source code files in the same path location.
-1. In any terminal compile all files with 'javac *.java'
-2. Compile THImpl.java with 'rmic THImpl' to generate the stub file (might not be needed in newer Java versions)
-3. In the first terminal run THServer with 'java THServer'
-4. In the second terminal run THClient with 'java THClient'
+
+  1. In any terminal compile all files with 'javac *.java'
+  2. Compile THImpl.java with 'rmic THImpl' to generate the stub file (might not be needed in newer Java versions)
+  3. In the first terminal run THServer with 'java THServer'
+  4. In the second terminal run THClient with 'java THClient'
 
 # Features
 The theater has the following 5 sections which are linked to a unique code, ticket price and initial available seat number:
