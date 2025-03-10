@@ -1,5 +1,3 @@
-package rmi.project;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 
