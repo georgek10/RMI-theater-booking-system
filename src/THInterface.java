@@ -1,5 +1,3 @@
-package rmi.project;
-
 public interface THInterface extends java.rmi.Remote { 
     public String list() throws java.rmi.RemoteException;
 	
