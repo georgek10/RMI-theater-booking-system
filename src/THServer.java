@@ -26,6 +26,6 @@ public class THServer {
     }
 
     public static void main(String[] args) {
-        THServer thServer = new THServer();
+        new THServer();
     }
 }
